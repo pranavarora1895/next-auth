@@ -1,13 +1,11 @@
 import { connect } from "@/dbConfig/dbConfig";
 import User from "@/model/userModel";
 import { NextRequest, NextResponse } from 'next/server';
-import bcryptjs from 'bcryptjs'
-import jwt from 'jsonwebtoken';
 import { getDatafromToken } from "@/helper/getDataFromToken";
 
 connect()
 
-export async function POST(request: NextRequest) {
+export async function GET(request: NextRequest) {
     try {
         // extract data from token
         const userID = await getDatafromToken(request)

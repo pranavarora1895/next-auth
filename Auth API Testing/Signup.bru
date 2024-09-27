@@ -5,15 +5,15 @@ meta {
 }
 
 post {
-  url: http://localhost:3000/api/users/signup
+  url: {{authurl}}/users/signup
   body: json
   auth: none
 }
 
 body:json {
   {
-    "username":"user1",
-    "email":"user1@gmail.com",
+    "username":"user4",
+    "email":"user4@gmail.com",
     "password":"user1234"
   }
 }
