@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This Full-Stack authentication app is developed in NextJS and MongoDB as its DB. [MailTrap](https://mailtrap.io) was used as an email delivery platform for email verification.
+
+## Checkout this demo
+
+
+
+https://github.com/user-attachments/assets/67895005-3a3c-493d-9f35-1c4adbd9fe77
+
+
+
 
 ## Getting Started
 
